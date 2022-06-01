@@ -14,8 +14,8 @@ function findName() {
 }
 
 function totalSal() {
-  let totalSalary = 0;
-  let empID = new Map();
+  var totalSalary = 0;
+  var empID = new Map();
   const getsal = employee.map((employee) => {
     totalSalary = totalSalary + employee.salary;
     console.log("Employee IDs= " + employee.empid);

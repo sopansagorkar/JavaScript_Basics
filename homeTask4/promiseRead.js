@@ -1,4 +1,4 @@
-var fs = require("fs");
+const fs = require("fs");
 const fsPromises = require("fs").promises;
 
 const fileName = "./samplefile.txt";

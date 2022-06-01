@@ -2,7 +2,7 @@
 
 
 
-var N = 100;
+const N = 100;
  
     //check for every number from 1 to N
       for(let i=1; i<=N; i++){

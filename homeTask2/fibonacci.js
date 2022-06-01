@@ -1,4 +1,4 @@
-var n=10;
+const n=10;
 
 function createFibonacci(n){
     if(n<=1){
